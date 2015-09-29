@@ -1,0 +1,1 @@
+los botones pueden no verse por culpa de la posicion relativa si no le encuentro la vuelta usarlos en la carpeta c:/imagenes y poner alli dentro
