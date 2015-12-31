@@ -23,6 +23,8 @@ namespace Limpiar
 
         DataClasses1DataContext db = new DataClasses1DataContext();
 
+
+
         private void Usuario_Click(object sender, EventArgs e)
         {
             db.Borrar_Todas_Las_Tablas(1);
@@ -43,7 +45,7 @@ namespace Limpiar
                 {
                     Alerta_1_Usuario.Enabled = true;
                     
-                    Alerta_1_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_1_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -58,7 +60,7 @@ namespace Limpiar
             if (Usuario.Enabled == false)
             {
                 Usuario.Enabled = true;
-                Alerta_1_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_1_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -67,6 +69,14 @@ namespace Limpiar
             }
         }
 
+
+
+        private void Datos_Usuario_Click(object sender, EventArgs e)
+        {
+            db.Borrar_Todas_Las_Tablas(2);
+            Alerta_2_Usuario.Enabled = false;
+            Datos_Usuario.Enabled = false;
+        }
 
         private void Boton_2_Usuario_Click(object sender, EventArgs e)
         {
@@ -81,7 +91,7 @@ namespace Limpiar
                 {
                     Alerta_2_Usuario.Enabled = true;
 
-                    Alerta_2_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_2_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -96,7 +106,7 @@ namespace Limpiar
             if (Usuario.Enabled == false)
             {
                 Datos_Usuario.Enabled = true;
-                Alerta_2_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_2_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -105,14 +115,8 @@ namespace Limpiar
             }
         }
 
-        private void Datos_Usuario_Click(object sender, EventArgs e)
-        {
-            db.Borrar_Todas_Las_Tablas(2);
-            Alerta_2_Usuario.Enabled = false;
-            Datos_Usuario.Enabled = false;
-        }
 
-
+        
         private void Boton_4_Usuario_Click_1(object sender, EventArgs e)
         {
             if (Comentario_Usuario.Enabled == false)
@@ -126,7 +130,7 @@ namespace Limpiar
                 {
                     Alerta_4_Usuario.Enabled = true;
 
-                    Alerta_4_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_4_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -141,7 +145,7 @@ namespace Limpiar
             if (Comentario_Usuario.Enabled == false)
             {
                 Comentario_Usuario.Enabled = true;
-                Alerta_4_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_4_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -158,12 +162,15 @@ namespace Limpiar
         }
 
 
+
+
+
         private void Alerta_3_Usuario_Click_1(object sender, EventArgs e)
         {
             if (Extra_Usuario.Enabled == false)
             {
                 Extra_Usuario.Enabled = true;
-                Alerta_3_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_3_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -185,7 +192,7 @@ namespace Limpiar
                 {
                     Alerta_3_Usuario.Enabled = true;
 
-                    Alerta_3_Usuario.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_3_Usuario.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -202,6 +209,16 @@ namespace Limpiar
             Extra_Usuario.Enabled = false;
         }
 
+
+
+
+        private void Administrador_Click(object sender, EventArgs e)
+        {
+            db.Borrar_Todas_Las_Tablas(5);
+            Alerta_5_Administrador.Enabled = false;
+            Administrador.Enabled = false;
+        }
+
         private void Boton_1_Administrador_Click(object sender, EventArgs e)
         {
             if (Administrador.Enabled == false)
@@ -215,7 +232,7 @@ namespace Limpiar
                 {
                     Alerta_5_Administrador.Enabled = true;
 
-                    Alerta_5_Administrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_5_Administrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -230,7 +247,7 @@ namespace Limpiar
             if (Administrador.Enabled == false)
             {
                 Administrador.Enabled = true;
-                Alerta_5_Administrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_5_Administrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -239,11 +256,12 @@ namespace Limpiar
             }
         }
 
-        private void Administrador_Click(object sender, EventArgs e)
+
+        private void Comentario_Administrador_Click(object sender, EventArgs e)
         {
-            db.Borrar_Todas_Las_Tablas(5);
-            Alerta_5_Administrador.Enabled = false;
-            Administrador.Enabled = false;
+            db.Borrar_Todas_Las_Tablas(6);
+            Alerta_6_Admonistrador.Enabled = false;
+            Comentario_Administrador.Enabled = false;
         }
 
         private void Boton_2_Administrador_Click(object sender, EventArgs e)
@@ -259,7 +277,7 @@ namespace Limpiar
                 {
                     Alerta_6_Admonistrador.Enabled = true;
 
-                    Alerta_6_Admonistrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_6_Admonistrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -274,7 +292,7 @@ namespace Limpiar
             if (Comentario_Administrador.Enabled == false)
             {
                 Comentario_Administrador.Enabled = true;
-                Alerta_6_Admonistrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_6_Admonistrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -283,11 +301,13 @@ namespace Limpiar
             }
         }
 
-        private void Comentario_Administrador_Click(object sender, EventArgs e)
+
+
+        private void Categoria_Click(object sender, EventArgs e)
         {
-            db.Borrar_Todas_Las_Tablas(6);
-            Alerta_6_Admonistrador.Enabled = false;
-            Comentario_Administrador.Enabled = false;
+            db.Borrar_Todas_Las_Tablas(7);
+            Alerta_7_Administrador.Enabled = false;
+            Categoria.Enabled = false;
         }
 
         private void Boton_3_Administrador_Click(object sender, EventArgs e)
@@ -303,7 +323,7 @@ namespace Limpiar
                 {
                     Alerta_7_Administrador.Enabled = true;
 
-                    Alerta_7_Administrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_7_Administrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -315,10 +335,10 @@ namespace Limpiar
 
         private void Alerta_7_Administrador_Click(object sender, EventArgs e)
         {
-            if (Comentario_Administrador.Enabled == false)
+            if (Categoria.Enabled == false)
             {
                 Categoria.Enabled = true;
-                Alerta_7_Administrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_7_Administrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -327,12 +347,7 @@ namespace Limpiar
             }
         }
 
-        private void Categoria_Click(object sender, EventArgs e)
-        {
-            db.Borrar_Todas_Las_Tablas(7);
-            Alerta_7_Administrador.Enabled = false;
-            Categoria.Enabled = false;
-        }
+       
 
         private void Boton_4_Administrador_Click(object sender, EventArgs e)
         {
@@ -347,7 +362,7 @@ namespace Limpiar
                 {
                     Alerta_8_Administrador.Enabled = true;
 
-                    Alerta_8_Administrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    Alerta_8_Administrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -362,7 +377,7 @@ namespace Limpiar
             if (Control_Administrador.Enabled == false)
             {
                 Control_Administrador.Enabled = true;
-                Alerta_8_Administrador.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                Alerta_8_Administrador.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -388,7 +403,7 @@ namespace Limpiar
             if (button7.Enabled == false)
             {
                 button7.Enabled = true;
-                button8.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button8.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -409,7 +424,7 @@ namespace Limpiar
             if (button9.Enabled == false)
             {
                 button9.Enabled = true;
-                button10.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button10.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -438,7 +453,7 @@ namespace Limpiar
                 {
                     button14.Enabled = true;
 
-                    button14.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button14.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -453,7 +468,7 @@ namespace Limpiar
             if (button13.Enabled == false)
             {
                 button13.Enabled = true;
-                button14.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button14.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -482,7 +497,7 @@ namespace Limpiar
                 {
                     button12.Enabled = true;
 
-                    button12.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button12.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -497,7 +512,7 @@ namespace Limpiar
             if (button11.Enabled == false)
             {
                 button11.Enabled = true;
-                button12.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button12.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -526,7 +541,7 @@ namespace Limpiar
                 {
                     button10.Enabled = true;
 
-                    button10.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button10.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -549,7 +564,7 @@ namespace Limpiar
                 {
                     button8.Enabled = true;
 
-                    button8.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button8.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -572,7 +587,7 @@ namespace Limpiar
                 {
                     button18.Enabled = true;
 
-                    button18.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button18.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -587,7 +602,7 @@ namespace Limpiar
             if (button17.Enabled == false)
             {
                 button17.Enabled = true;
-                button18.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button18.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -617,7 +632,7 @@ namespace Limpiar
                 {
                     button16.Enabled = true;
 
-                    button16.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button16.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -632,7 +647,7 @@ namespace Limpiar
             if (button15.Enabled == false)
             {
                 button15.Enabled = true;
-                button16.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button16.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -661,7 +676,7 @@ namespace Limpiar
                 {
                     button36.Enabled = true;
 
-                    button36.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button36.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -676,7 +691,7 @@ namespace Limpiar
             if (button35.Enabled == false)
             {
                 button35.Enabled = true;
-                button36.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button36.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -705,7 +720,7 @@ namespace Limpiar
                 {
                     button34.Enabled = true;
 
-                    button34.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button34.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -720,7 +735,7 @@ namespace Limpiar
             if (button33.Enabled == false)
             {
                 button33.Enabled = true;
-                button34.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button34.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -749,7 +764,7 @@ namespace Limpiar
                 {
                     button32.Enabled = true;
 
-                    button32.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button32.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -764,7 +779,7 @@ namespace Limpiar
             if (button31.Enabled == false)
             {
                 button31.Enabled = true;
-                button32.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button32.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -794,7 +809,7 @@ namespace Limpiar
                 {
                     button28.Enabled = true;
 
-                    button28.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button28.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -809,7 +824,7 @@ namespace Limpiar
             if (button26.Enabled == false)
             {
                 button26.Enabled = true;
-                button28.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button28.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -838,7 +853,7 @@ namespace Limpiar
                 {
                     button30.Enabled = true;
 
-                    button30.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button30.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -853,7 +868,7 @@ namespace Limpiar
             if (button29.Enabled == false)
             {
                 button29.Enabled = true;
-                button30.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button30.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -882,7 +897,7 @@ namespace Limpiar
                 {
                     button46.Enabled = true;
 
-                    button46.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button46.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -897,7 +912,7 @@ namespace Limpiar
             if (button45.Enabled == false)
             {
                 button45.Enabled = true;
-                button46.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button46.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -926,7 +941,7 @@ namespace Limpiar
                 {
                     button44.Enabled = true;
 
-                    button44.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button44.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -941,7 +956,7 @@ namespace Limpiar
             if (button43.Enabled == false)
             {
                 button43.Enabled = true;
-                button44.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button44.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -970,7 +985,7 @@ namespace Limpiar
                 {
                     button42.Enabled = true;
 
-                    button42.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button42.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -985,7 +1000,7 @@ namespace Limpiar
             if (button41.Enabled == false)
             {
                 button41.Enabled = true;
-                button42.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button42.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1014,7 +1029,7 @@ namespace Limpiar
                 {
                     button48.Enabled = true;
 
-                    button48.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button48.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1029,7 +1044,7 @@ namespace Limpiar
             if (button47.Enabled == false)
             {
                 button47.Enabled = true;
-                button48.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button48.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1058,7 +1073,7 @@ namespace Limpiar
                 {
                     button40.Enabled = true;
 
-                    button40.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button40.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1073,7 +1088,7 @@ namespace Limpiar
             if (button39.Enabled == false)
             {
                 button39.Enabled = true;
-                button40.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button40.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1102,7 +1117,7 @@ namespace Limpiar
                 {
                     button38.Enabled = true;
 
-                    button38.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button38.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1117,7 +1132,7 @@ namespace Limpiar
             if (button23.Enabled == false)
             {
                 button23.Enabled = true;
-                button38.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button38.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1146,7 +1161,7 @@ namespace Limpiar
                 {
                     button50.Enabled = true;
 
-                    button50.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button50.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1161,7 +1176,7 @@ namespace Limpiar
             if (button49.Enabled == false)
             {
                 button49.Enabled = true;
-                button50.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button50.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1215,7 +1230,7 @@ namespace Limpiar
                 {
                     button62.Enabled = true;
 
-                    button62.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button62.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1230,7 +1245,7 @@ namespace Limpiar
             if (button61.Enabled == false)
             {
                 button61.Enabled = true;
-                button62.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button62.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1260,7 +1275,7 @@ namespace Limpiar
                 {
                     button60.Enabled = true;
 
-                    button60.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button60.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1275,7 +1290,7 @@ namespace Limpiar
             if (button59.Enabled == false)
             {
                 button59.Enabled = true;
-                button60.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button60.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1304,7 +1319,7 @@ namespace Limpiar
                 {
                     button58.Enabled = true;
 
-                    button58.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button58.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1319,7 +1334,7 @@ namespace Limpiar
             if (button57.Enabled == false)
             {
                 button57.Enabled = true;
-                button58.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button58.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1348,7 +1363,7 @@ namespace Limpiar
                 {
                     button56.Enabled = true;
 
-                    button56.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button56.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1363,7 +1378,7 @@ namespace Limpiar
             if (button55.Enabled == false)
             {
                 button55.Enabled = true;
-                button56.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button56.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1392,7 +1407,7 @@ namespace Limpiar
                 {
                     button78.Enabled = true;
 
-                    button78.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button78.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1407,7 +1422,7 @@ namespace Limpiar
             if (button77.Enabled == false)
             {
                 button77.Enabled = true;
-                button78.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button78.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1436,7 +1451,7 @@ namespace Limpiar
                 {
                     button76.Enabled = true;
 
-                    button76.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button76.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1451,7 +1466,7 @@ namespace Limpiar
             if (button75.Enabled == false)
             {
                 button75.Enabled = true;
-                button76.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button76.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1480,7 +1495,7 @@ namespace Limpiar
                 {
                     button82.Enabled = true;
 
-                    button82.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button82.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1495,7 +1510,7 @@ namespace Limpiar
             if (button81.Enabled == false)
             {
                 button81.Enabled = true;
-                button82.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button82.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1523,7 +1538,7 @@ namespace Limpiar
                 {
                     button80.Enabled = true;
 
-                    button80.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button80.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1538,7 +1553,7 @@ namespace Limpiar
             if (button79.Enabled == false)
             {
                 button79.Enabled = true;
-                button80.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button80.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1567,7 +1582,7 @@ namespace Limpiar
                 {
                     button87.Enabled = true;
 
-                    button87.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button87.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1582,7 +1597,7 @@ namespace Limpiar
             if (button86.Enabled == false)
             {
                 button86.Enabled = true;
-                button87.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button87.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {
@@ -1611,7 +1626,7 @@ namespace Limpiar
                 {
                     button85.Enabled = true;
 
-                    button85.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Yellow.png");
+                    button85.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Yellow.png");
                 }
             }
             else
@@ -1626,7 +1641,7 @@ namespace Limpiar
             if (button84.Enabled == false)
             {
                 button84.Enabled = true;
-                button85.Image = Image.FromFile(@"C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\imagen\Circle_Green.png");
+                button85.Image = Image.FromFile(@"C:\Limpiar\imagen\Circle_Green.png");
             }
             else
             {

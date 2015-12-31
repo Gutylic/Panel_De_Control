@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Limpiar.exe" size="185856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Limpiar.exe" size="185344">
       <assemblyIdentity name="Limpiar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DEoq+vVTuA98dXRlgiN8lll6DuHf1BY/S07f+7mQZbE=</dsig:DigestValue>
+        <dsig:DigestValue>Tgqe+yIfGfoMuyv4JRp7uLvzQjuo7MCM/DaARy8TPgU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

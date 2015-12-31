@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Limpiar.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Limpiar.exe" version="1.0.0.2" publicKeyToken="bae34c532409ea60" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Limpiar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Limpiar.exe" size="185856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Limpiar.exe" size="185344">
       <assemblyIdentity name="Limpiar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DEoq+vVTuA98dXRlgiN8lll6DuHf1BY/S07f+7mQZbE=</dsig:DigestValue>
+        <dsig:DigestValue>Tgqe+yIfGfoMuyv4JRp7uLvzQjuo7MCM/DaARy8TPgU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,4 +98,4 @@
       <dsig:DigestValue>AT0Ig0YNvM91I8SbIP2GtRBNFB9P7PQA4XNxK6oNHH8=</dsig:DigestValue>
     </hash>
   </file>
-</asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-U6J54HF\Gustavo" issuerKeyHash="bc1a8a527660171a6ff2bd04aa776be3f9824ea9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zIsAwkX6oJXfj+wNwxpkiADYJo2UyIXQ7uuWxq6eKE8=</DigestValue></Reference></SignedInfo><SignatureValue>m5Zyk3GYDJo+MZrurF7Z/8YNXJpqi/K/42KXeevRh/dt7g4OoL1Caf8/6Wrm5t9aEpcVEu1ry/10SD/U9BV8K6XnmuPmtj+4vQqDmHeMGyi5ZS3gvI1stjltGbtCLRJR+ZYNvu8Gj4K6C/rEcYS+ymvEPVWceBlJvUXL50TTFkk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o/WTHUE817nr6ZIxRw0QBVOj+nQDnnqV6IPz6/QtM7ud/Jv6YRClzDwAaofmvv4pL1+IiUra9pEJ7GSd0HsGPZp3gRaSzEWcmHFizy9P4a0yqGNMVHDiJ/G28A7A1Pi1+XEqwqBHT/ApghIyb/8tIKQkxsVNgbeRrnTJhHQxoQU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4f289eaec696ebeed085c8948d26d80088641ac30dec8fdf95a0fa45c2008bcc" Description="" Url=""><as:assemblyIdentity name="Limpiar.exe" version="1.0.0.2" publicKeyToken="bae34c532409ea60" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-U6J54HF\Gustavo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nO0fAb50TMokvged8W9mc0SV5Hrn23iaX8JSbvFtdwA=</DigestValue></Reference></SignedInfo><SignatureValue>XSyJHgiaOqX+v86a1QPQSYyp08jXlosDlnDq3MXof3khO8RMfP4PiyGRVYNjmcjzRukh2Um7NOe7HgxLiBk4BfP7oZnQ7z0uMazU/3PF0av9s984dm/4A29CKW9E39/UL/iJteS19rP4BH0A5/QN1YqFFMBQMSBy0lRCCzuUBnY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o/WTHUE817nr6ZIxRw0QBVOj+nQDnnqV6IPz6/QtM7ud/Jv6YRClzDwAaofmvv4pL1+IiUra9pEJ7GSd0HsGPZp3gRaSzEWcmHFizy9P4a0yqGNMVHDiJ/G28A7A1Pi1+XEqwqBHT/ApghIyb/8tIKQkxsVNgbeRrnTJhHQxoQU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQHLjX1FwEaZtM4D2hLFspqTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFUANgBKADUANABIAEYAXABHAHUAcwB0AGEAdgBvMB4XDTE1MTIxMjAyMDUxN1oXDTE2MTIxMTA4MDUxN1owOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBVADYASgA1ADQASABGAFwARwB1AHMAdABhAHYAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAo/WTHUE817nr6ZIxRw0QBVOj+nQDnnqV6IPz6/QtM7ud/Jv6YRClzDwAaofmvv4pL1+IiUra9pEJ7GSd0HsGPZp3gRaSzEWcmHFizy9P4a0yqGNMVHDiJ/G28A7A1Pi1+XEqwqBHT/ApghIyb/8tIKQkxsVNgbeRrnTJhHQxoQUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB1xFE1GXWk5Zcd7FbdzIeyVEE8DJdfGcas3ybhByBt7bzT7ltVhunJMVqmbajbdvod4MthxrhKQqYts+RJm3r7CVpSl46VeKil0bOn9DYmKF67K2ZAeoX9F959CsfQQxFxrpxZ0A6hBaYXwL+mKseH8fRmUFCnyLEWN7Q/BdRFKQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

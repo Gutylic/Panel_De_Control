@@ -7,3 +7,29 @@ C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\obj\Debug\Limpiar.Propert
 C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\obj\Debug\Limpiar.csproj.GenerateResource.Cache
 C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\obj\Debug\Limpiar.exe
 C:\Users\Guty\Desktop\Panel de Control\Limpiar\Limpiar\obj\Debug\Limpiar.pdb
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\bin\Debug\Limpiar.exe.config
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.exe
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.pdb
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\bin\Debug\Limpiar.exe
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\bin\Debug\Limpiar.pdb
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.Form1.resources
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.Properties.Resources.resources
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.csproj.GenerateResource.Cache
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\bin\Debug\Limpiar.exe.manifest
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\bin\Debug\Limpiar.application
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.exe.manifest
+C:\Users\Gustavo\Desktop\Panel_De_Control\Limpiar\obj\Debug\Limpiar.application
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\bin\Debug\Limpiar.exe.config
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.exe
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.pdb
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\bin\Debug\Limpiar.exe.manifest
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\bin\Debug\Limpiar.application
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\bin\Debug\Limpiar.exe
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\bin\Debug\Limpiar.pdb
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.Form1.resources
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.Properties.Resources.resources
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.csproj.GenerateResource.Cache
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.exe.manifest
+C:\Users\Gustavo\Documents\GitHub\Panel_De_Control\Limpiar\obj\Debug\Limpiar.application
